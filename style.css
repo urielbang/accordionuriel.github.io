@@ -1,0 +1,36 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.accordion p {
+  border: 1px rgba(185, 0, 0, 0.301) solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: blueviolet;
+  padding: 1rem;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  background-color: burlywood;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.moreDetails_1 {
+  display: flex;
+  width: 30%;
+  display: none;
+}
+.moreDetails_2 {
+  display: flex;
+  width: 30%;
+  display: none;
+}
+.show {
+  display: flex;
+  width: 30%;
+}
